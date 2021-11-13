@@ -6,7 +6,7 @@ Most used dotfiles across my devices. (Ubuntu environment)
 ### If lacking permission to run scripts
 ```
 chmod +x ./backup.sh
-chmod +x ./restore.sh\
+chmod +x ./restore.sh
 ```
 
 ### If syntax error when running backup script
