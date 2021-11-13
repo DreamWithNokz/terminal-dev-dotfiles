@@ -1,5 +1,5 @@
 # terminal-dev-dotfiles
-Most used dotfiles across my devices.
+Most used dotfiles across my devices. (Ubuntu environment)
 
 ## Issues
 
