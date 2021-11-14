@@ -5,8 +5,8 @@ dotfiles=(
 )
 
 # Creates initial folder then clean it if it exists
+rm -rf ./dotfiles -v
 mkdir ./dotfiles -v
-rm -rf ./dotfiles/* -v
 
 # Copy files to dotfiles folder
 cp ${dotfiles[*]} ./dotfiles/ -rv
