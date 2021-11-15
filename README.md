@@ -13,3 +13,6 @@ chmod +x ./restore.sh
 ```
 bash ./backup.sh
 ```
+
+### If syntax and plugin error on Neovim
+Update Neovim package to latest.
