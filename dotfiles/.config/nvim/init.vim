@@ -15,6 +15,11 @@ set noshowmode
 
 set updatetime=100
 
+au VimEnter,VimResume * set guicursor=n-v:block,i:ver25,r:hor20,o:hor50
+  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
+
+au VimLeave,VimSuspend * set guicursor=a:ver100
+
 augroup numbertoggle
   autocmd!
   autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
